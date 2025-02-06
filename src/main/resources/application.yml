@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: blood-sample-management-api
+  datasource:
+    username: root
+    password: code
+    url: jdbc:mysql://localhost:3306/BloodBankManagmentSystemDB?createDatabaseIfNotExist=true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8000
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sunil0583324@gmail.com
+    password: yuyjzoubrxwqikbe
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
