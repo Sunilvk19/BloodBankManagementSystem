@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Entity
+@Entity(name = "User_Tan;e")
 @Data
 @Builder
 @NoArgsConstructor
