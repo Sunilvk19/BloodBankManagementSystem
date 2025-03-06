@@ -13,5 +13,5 @@ public interface UserRepository extends JpaRepository<User,Integer> {
 
      Optional<User> findByEmail(String email);
 
-   public List<User> findAllByAvailableCityInAndBloodGroupIn(List<BloodGroup> bloodgroupList, List<String> cities);
+    List<User> findAllByAvailableCityInAndBloodGroupIn(List<BloodGroup> bloodgroupList, List<String> cities);
 }
