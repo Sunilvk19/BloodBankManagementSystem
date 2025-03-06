@@ -38,7 +38,6 @@ public class RestResponseBuilder {
         return ResponseEntity
                 .status(status)
                 .body(structure);
-
     }
 
 }
